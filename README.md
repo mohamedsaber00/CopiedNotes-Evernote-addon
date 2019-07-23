@@ -13,7 +13,7 @@
 </p>
 
 
-Copied Note is an open source Android app helps tp copy text and save it directly on Evernote
+Copied Note is an open source Android app helps tp copy text and save it directly in Evernote
 
 # Main Features!
 
