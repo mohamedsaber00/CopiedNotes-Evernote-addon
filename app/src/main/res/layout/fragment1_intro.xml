@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   tools:context=".Intro.IntroFragment1">
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:src="@drawable/copy_intro_screenshot"
+            android:id="@+id/first_screenshot_imageview"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toTopOf="@+id/guideline2"
+            app:layout_constraintHorizontal_bias="1.0" android:layout_marginTop="24dp"/>
+
+    <androidx.constraintlayout.widget.Guideline android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                                android:id="@+id/guideline2"
+                                                android:orientation="horizontal"
+                                                app:layout_constraintGuide_percent="0.65"/>
+    <TextView
+            android:text="@string/how_it_works"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/how_it_work_textview"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintTop_toTopOf="@+id/guideline2" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="24dp"
+            app:fontFamily="@font/roboto_bold"/>
+    <TextView
+            android:text="@string/copy_anything"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/copy_anything_textView"
+            app:layout_constraintTop_toBottomOf="@+id/how_it_work_textview"
+            app:layout_constraintStart_toStartOf="parent"
+            android:gravity="center"
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" app:fontFamily="@font/roboto_medium"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginRight="8dp" android:layout_marginEnd="8dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="evernote_main_color">#2EBE60</color>
+    <color name="sign_in_color">#29A352</color>
+
+    <color name="evernote_main_color_dark">#2C964F</color>
+    <color name="white">#ffffff</color>
+
+
+
+
+    <color name="frag3">#2196F3</color>
+    <color name="frag2">#3F51B5</color>
+    <color name="frag1">#008577</color>
+
+</resources>

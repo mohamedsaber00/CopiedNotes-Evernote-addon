@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">EverCopy</string>
+
+
+    <string name="ADMOB_APP_ID">ca-app-pub-7071185772281204~9735579245</string>
+    <string name="AD_UNIT_ID">ca-app-pub-7071185772281204/5354971795</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_in">Sign In</string>
+    <string name="consumer_key">mohamedsaber09-2230</string>
+    <string name="consumer_secret">8866090b487c8bc6</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="general_header">General</string>
+    <string name="support_header">Support</string>
+
+    <!-- general Preferences -->
+    <string name="copy_to_evernote_turn">Copy to Evernote</string>
+
+    <string name="start_on_boot">Start on boot</string>
+    <string name="start_on_boot_summary">Start Copy to Evenote automitacly</string>
+
+    <string name="Save_confirmation">Confirm before saving</string>
+    <string name="choose_confitmation_method">Choose a method to confirm saving</string>
+
+    <string name="choose_notebook">Choose notebook</string>
+
+    <string name="buy_the_full_version">Buy the full version</string>
+    <string name="unlock_features">Unlock all features and remove ads</string>
+
+    <string name="do_you_want_to_save_in_evernote">Copy it in Evernote?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- Support Preferences -->
+
+    <string name="feedback_title">Send your feedback</string>
+    <string name="feedback_summary">Bug or request a feature? tell me</string>
+    <string name="rate_title">Rate us on Google Play</string>
+    <string name="rate_summary">This will help me a lot</string>
+
+
+    <string name="note_created_success">Note saved</string>
+    <string name="note_created_failed">Failed to save note</string>
+
+
+    <string name="you_need_to_signin">You need to sign in first</string>
+    <string name="you_need_to_buy">You need to buy the full version</string>
+
+
+    <!-- Intro Preferences -->
+    <string name="how_it_works">How it works?</string>
+    <string name="copy_anything">Copy anything from the web or any app</string>
+
+    <string name="notification_intro_text">You can choose whether to save it instantly or by pressing the notification</string>
+    <string name="bubble_intro_text">or press the pop-up bubble</string>
+    <string name="sign_intro_text">Just one more step!</string>
+
+
+</resources>

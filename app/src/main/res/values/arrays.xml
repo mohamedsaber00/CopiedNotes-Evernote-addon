@@ -1,0 +1,17 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="confirm_method_entries">
+        <item>None</item>
+        <item>Notification</item>
+        <item>Pop up bubble</item>
+    </string-array>
+
+    <string-array name="confirm_method_values">
+        <item>none</item>
+        <item>notification</item>
+        <item>pop_up_bubble</item>
+    </string-array>
+
+
+
+</resources>

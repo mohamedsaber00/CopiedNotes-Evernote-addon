@@ -1,0 +1,80 @@
+<!--
+  ~ Copyright 2018 The app Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<PreferenceScreen
+
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+            app:title="@string/general_header"
+            app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+                app:key="service_is_on"
+                app:defaultValue="false"
+                app:title="@string/copy_to_evernote_turn"
+                app:icon="@drawable/ic_logo_200"/>
+
+        <SwitchPreferenceCompat
+                app:key="start_on_boot"
+                app:title="@string/start_on_boot"
+                app:summary="@string/start_on_boot_summary"
+                app:icon="@drawable/ic_power_settings_new_green_48dp"/>
+
+        <ListPreference
+                app:key="confirm_method"
+                app:title="@string/Save_confirmation"
+                app:entries="@array/confirm_method_entries"
+                app:summary="@string/you_need_to_buy"
+                app:entryValues="@array/confirm_method_values"
+                app:defaultValue="none"
+                app:icon="@drawable/ic_done_all_green_48dp"
+        />
+
+        <ListPreference
+                app:key="choose_notebook"
+                app:title="@string/choose_notebook"
+                app:icon="@drawable/ic_book_green_48dp"/>
+
+        <Preference
+                app:key="buy_full"
+                app:title="@string/buy_the_full_version"
+                app:summary="@string/unlock_features"
+                app:icon="@drawable/ic_pro"/>
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            app:title="@string/support_header"
+            app:iconSpaceReserved="false">
+
+        <Preference
+                app:key="feedback"
+                app:title="@string/feedback_title"
+                app:summary="@string/feedback_summary"
+                app:icon="@drawable/ic_feedback_48dp"/>
+
+        <Preference
+                app:key="rate"
+                app:title="@string/rate_title"
+                app:summary="@string/rate_summary"
+                app:icon="@drawable/ic_google_play_24dp"/>
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
