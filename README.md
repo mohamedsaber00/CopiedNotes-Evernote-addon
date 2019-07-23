@@ -21,6 +21,12 @@ Copied Note is an open source Android app helps tp copy text and save it directl
   - Choose whether you want to save or not
   - Popup head to confirm saving
 
+#ScreenShot
+
+<img src = "https://lh3.googleusercontent.com/mtMZoY1tmT6CYq3rd7yiPPYmOCE1qKvlN5LAe4jx4PXEg-qhr6KMx0Ovah_Np-gOKw=w1366-h625-rw"> <img src = "https://lh3.googleusercontent.com/gaQDHVMm0x7epvg_C4nqaZgrA4fj3oydMwfp5RaK7Ihtu2JUzXDMH7UUUsQUWsm-xyst=w1366-h625-rw"> <img src = "https://lh3.googleusercontent.com/AMxzAwhFalIqTMKa443DXCZmP4KPahU-WDprmMMOYaP3n55ALUH9XZUz0fmJROjQyA=w1366-h625-rw"> <img src = "https://lh3.googleusercontent.com/q2EA5KCGo-UrCCoQ_Tdtqq8bCc2SwXZjGb7G_mXYIcy1PhVoLsf13zZGbXV4hXqeMd0r=w1366-h625-rw" >
+
+
+
 
 # TODO :
 - Cleaner code 
