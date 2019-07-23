@@ -1,10 +1,16 @@
 # Copied Notes : Evernote add-on
+
 **A clipping tool for Evernote**
+
 ![N|Solid](https://lh3.googleusercontent.com/BeoYJTPdtTKuwFeUaIfOUvmjMwiS_UyUR20heD_dBpzb3CZNRvbciRvhZr2ooHRJT7II=s180-rw)
+
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-[![N|Solid](https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=pro.copytoevernote.material)
-
+<p>
+<a href="https://play.google.com/store/apps/details?id=pro.copytoevernote.material">
+<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width="350" height="128">
+</a>
+</p>
 
 
 Copied Note is an open source Android app helps tp copy text and save it directly on Evernote
